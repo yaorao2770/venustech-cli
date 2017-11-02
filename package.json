@@ -1,0 +1,25 @@
+{
+  "name": "webapp-cli",
+  "version": "1.0.0",
+  "description": "auto generate project template",
+  "main": "index.js",
+  "bin":{
+    "webapp-cli":"./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaorao2770/webapp-cli.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "cy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yaorao2770/webapp-cli/issues"
+  },
+  "homepage": "https://github.com/yaorao2770/webapp-cli#readme"
+}
