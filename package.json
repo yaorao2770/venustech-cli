@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "auto generate project template",
   "main": "index.js",
-  "bin":{
-    "webapp-cli":"./index.js"
+  "bin": {
+    "webapp-cli": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/yaorao2770/webapp-cli/issues"
   },
-  "homepage": "https://github.com/yaorao2770/webapp-cli#readme"
+  "homepage": "https://github.com/yaorao2770/webapp-cli#readme",
+  "devDependencies": {
+    "chalk": "^2.3.0"
+  }
 }
