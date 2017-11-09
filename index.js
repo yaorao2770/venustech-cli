@@ -1,10 +1,9 @@
 #! node
 
-console.log(chalk.green('chenyang`s webapp-cli is success run!'));
+console.log('chenyang`s webapp-cli is success run!');
 
 var fs = require('fs');
 var path = require('path');
-var chalk = require('chalk');
 
 var config = {};
 console.log('process.argv',process.argv + '\n');
@@ -128,4 +127,4 @@ mkdir(PATH + '/source',function(){
 });
 
 
-console.log(chalk.green('build success!' + '\n'));
+console.log('build success!' + '\n');
