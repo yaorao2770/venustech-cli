@@ -1,6 +1,6 @@
 #! node
 
-console.log('chenyang`s webapp-cli is success run!');
+console.log('webapp-cli is success run!');
 
 var fs = require('fs');
 var path = require('path');
@@ -55,6 +55,11 @@ if(process.argv.length == 2){
 }
 
 console.log('config.lib---',config.lib + '\n');
+
+copyTemplate('config/gulpfile.js',PATH + '/gulpfile.js');
+copyTemplate('config/package.json',PATH + '/package.json');
+copyTemplate('config/bower.json',PATH + '/bower.json');
+
 
 mkdir(PATH + '/images');
 mkdir(PATH + '/templates',function(){

@@ -8,15 +8,18 @@
 	<link rel="stylesheet" href="source/css/common.css">
 	<link rel="stylesheet" href="source/css/cy.css">
 	<link rel="stylesheet" href="source/css/al.css">
+	
 </head>
 <body ng-app="myApp">
-	<h1>webapp-CLI is success run. Have a fun codeing.</h1>
+	<h1>webapp-CLI is success run. Have a fun coding.</h1>
 	<div ui-view></div>
 </body>
-	<!-- libSource -->
-	<script src="source/lib/js/angular.js"></script>
-	<script src="source/lib/js/angular-ui-router.js"></script>
-	
+
+	<!-- inject:js -->
+	<script src="/bower_components/angular/angular.js"></script>
+	<script src="/bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+	<!-- endinject -->
+
 	<!-- pageSource -->
 	<script src="source/service/app.js"></script>
 	<script src="source/service/router.js"></script>
