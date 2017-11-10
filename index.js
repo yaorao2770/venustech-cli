@@ -8,7 +8,6 @@ var path = require('path');
 var config = {};
 console.log('process.argv',process.argv + '\n');
 process.argv.slice(2).forEach( function(item) {
-	console.log('process.argv-->item',item + '\n');
 	switch (item) {
 		case '-lib':
 			config.lib = true;
@@ -86,47 +85,6 @@ mkdir(PATH + '/source',function(){
 		copyTemplate('css/common.css',PATH + '/source/css/common.css');
 		copyTemplate('css/cy.css',PATH + '/source/css/cy.css');
 		copyTemplate('css/al.css',PATH + '/source/css/al.css');
-	});
-
-	mkdir(PATH + '/source/lib',function(){
-
-		mkdir(PATH + '/source/lib/js',function(){
-
-			copyTemplate('lib/js/angular.js',PATH + '/source/lib/js/angular.js');
-			copyTemplate('lib/js/angular-ui-router.js',PATH + '/source/lib/js/angular-ui-router.js');
-
-			if(config.lib){
-				copyTemplate('lib/js/angular-animate.js',PATH + '/source/lib/js/angular-animate.js');
-				copyTemplate('lib/js/angular-cookies.js',PATH + '/source/lib/js/angular-cookies.js');
-				copyTemplate('lib/js/angular-locale_zh-cn.js',PATH + '/source/lib/js/angular-locale_zh-cn.js');
-				copyTemplate('lib/js/ui-bootstrap-tpls-2.5.0.js',PATH + '/source/lib/js/ui-bootstrap-tpls-2.5.0.js');
-				copyTemplate('lib/js/jquery.js',PATH + '/source/lib/js/jquery.js');
-				copyTemplate('lib/js/echarts.js',PATH + '/source/lib/js/echarts.js');
-				copyTemplate('lib/js/linq.js',PATH + '/source/lib/js/linq.js');
-				copyTemplate('lib/js/smart-table.js',PATH + '/source/lib/js/smart-table.js');
-				copyTemplate('lib/js/jquery-confirm.min.js',PATH + '/source/lib/js/jquery-confirm.min.js');
-			}
-			
-		});
-
-		mkdir(PATH + '/source/lib/css',function(){
-			if(config.lib){
-				copyTemplate('lib/css/bootstrap.css',PATH + '/source/lib/css/bootstrap.css');
-				copyTemplate('lib/css/jquery-confirm.min.css',PATH + '/source/lib/css/jquery-confirm.min.css');
-			}
-		});
-
-		// TODO
-		mkdir(PATH + '/source/lib/fonts',function(){
-			if(config.lib){
-				copyTemplate('lib/fonts/glyphicons-halflings-regular.eot',PATH + '/source/lib/fonts/glyphicons-halflings-regular.eot');
-				copyTemplate('lib/fonts/glyphicons-halflings-regular.svg',PATH + '/source/lib/fonts/glyphicons-halflings-regular.svg');
-				copyTemplate('lib/fonts/glyphicons-halflings-regular.ttf',PATH + '/source/lib/fonts/glyphicons-halflings-regular.ttf');
-				copyTemplate('lib/fonts/glyphicons-halflings-regular.woff',PATH + '/source/lib/fonts/glyphicons-halflings-regular.woff');
-				copyTemplate('lib/fonts/glyphicons-halflings-regular.woff2',PATH + '/source/lib/fonts/glyphicons-halflings-regular.woff2');
-			}
-		});
-
 	});
 
 });
