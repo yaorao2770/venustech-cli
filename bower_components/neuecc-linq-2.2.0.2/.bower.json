@@ -1,0 +1,27 @@
+{
+  "name": "neuecc-linq-2.2.0.2",
+  "homepage": "https://github.com/yaorao2770/neuecc-linq-2.2.0.2",
+  "authors": [
+    "陈阳 <chen_yangyang@venustech.com.cn>"
+  ],
+  "description": "",
+  "main": "linq.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "cee37d3add",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "cee37d3add61ad6cce55743d7972e0dac1e03756"
+  },
+  "_source": "https://github.com/yaorao2770/neuecc-linq-2.2.0.2.git",
+  "_target": "*",
+  "_originalSource": "neuecc-linq-2.2.0.2",
+  "_direct": true
+}
