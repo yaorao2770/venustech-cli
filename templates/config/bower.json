@@ -39,6 +39,7 @@
     "jquery-confirm2": "3.3.0",
     "neuecc-linq-2.2.0.2": "*",
     "echarts": "^3.8.0",
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^3.3.7",
+    "d3": "^4.11.0"
   }
 }

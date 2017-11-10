@@ -10,19 +10,19 @@
     "cli"
   ],
   "overrides": {
-      "angular-i18n": {
-        "main": "./angular-locale_zh-cn.js"
-      },
-      "echarts": {
-        "main": [
-          "./dist/echarts.js",
-          "./map/js/china.js",
-          "./map/js/province/shanghai.js"
-        ]
-      },
-      "bootstrap": {
-        "main": "dist/css/bootstrap.css"
-      }
+    "angular-i18n": {
+      "main": "./angular-locale_zh-cn.js"
+    },
+    "echarts": {
+      "main": [
+        "./dist/echarts.js",
+        "./map/js/china.js",
+        "./map/js/province/shanghai.js"
+      ]
+    },
+    "bootstrap": {
+      "main": "dist/css/bootstrap.css"
+    }
   },
   "homepage": "https://github.com/yaorao2770/webapp-cli",
   "ignore": [
@@ -42,6 +42,7 @@
     "jquery-confirm2": "3.3.0",
     "neuecc-linq-2.2.0.2": "*",
     "echarts": "^3.8.0",
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^3.3.7",
+    "d3": "^4.11.0"
   }
 }
