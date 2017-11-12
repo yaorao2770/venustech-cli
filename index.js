@@ -53,12 +53,10 @@ if(process.argv.length == 2){
 	copyTemplate('index_lib.html',PATH + '/index.html');
 }
 
-console.log('config.lib---',config.lib + '\n');
-
 copyTemplate('config/gulpfile.js',PATH + '/gulpfile.js');
 copyTemplate('config/package.json',PATH + '/package.json');
 copyTemplate('config/bower.json',PATH + '/bower.json');
-copyTemplate('config/.gitignore',PATH + '/.gitignore');
+copyTemplate('config/.npmignore',PATH + '/.gitignore');
 
 
 mkdir(PATH + '/images');
