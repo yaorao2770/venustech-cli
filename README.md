@@ -15,5 +15,9 @@ The following results indicate success
 ![image](https://github.com/yaorao2770/webapp-cli/blob/master/images/build-success.png)
 
 Default generates the following directory structure
-![image](https://github.com/yaorao2770/webapp-cli/tree/master/images/directory-structure.png)
+![image](https://github.com/yaorao2770/webapp-cli/blob/master/images/directory-structure.png)
 
+Use "bower install" command Complete the lib-source loading before the project running:
+```
+$ bower install
+```
