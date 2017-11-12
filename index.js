@@ -1,12 +1,11 @@
 #! node
 
-console.log('webapp-cli is success run!');
+console.log('webapp-cli is success run!' + '\n');
 
 var fs = require('fs');
 var path = require('path');
 
 var config = {};
-console.log('process.argv',process.argv + '\n');
 process.argv.slice(2).forEach( function(item) {
 	switch (item) {
 		case '-lib':
