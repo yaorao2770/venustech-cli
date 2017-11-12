@@ -1,16 +1,27 @@
 # webapp-cli
 Auto generate project template
 
-## How to use
+## Table of Contents
+
+* [Installation](#installation)
+* [Usage](#usage)
+
+
+## Installation
 Install this tool by npm:
+
+```bash
+npm install webapp-cli -g
 ```
-$ npm install webapp-cli -g
-```
+
+## Usage
 Create your porject directory, and use "webapp-cli" command:
+
+```bash
+mkdir my-project && cd my-project
+webapp-cli
 ```
-$ mkdir my-project && cd my-project
-$ webapp-cli
-```
+
 The following results indicate success
 ![image](https://github.com/yaorao2770/webapp-cli/blob/master/images/build-success.png)
 
