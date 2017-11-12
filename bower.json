@@ -22,6 +22,9 @@
     },
     "bootstrap": {
       "main": "dist/css/bootstrap.css"
+    },
+    "font-awesome": {
+      "main": "css/font-awesome.css"
     }
   },
   "homepage": "https://github.com/yaorao2770/webapp-cli",
@@ -43,6 +46,6 @@
     "neuecc-linq-2.2.0.2": "*",
     "echarts": "^3.8.0",
     "bootstrap": "^3.3.7",
-    "d3": "^4.11.0"
+    "font-awesome": "^4.7.0"
   }
 }

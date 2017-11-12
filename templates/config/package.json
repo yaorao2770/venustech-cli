@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gulp": "^3.9.1",
     "gulp-asset-rev": "0.0.15",
     "gulp-concat": "^2.6.1",
     "gulp-inject": "^4.3.0",
