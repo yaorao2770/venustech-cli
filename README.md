@@ -37,7 +37,7 @@ venus
 ## Argv
 可接受一个命令行参数, -lib ,用于添加更多的资源文件，如下图所示：
 ```bash
-webapp-cli -lib
+venus -lib
 ```
 ![image](https://github.com/yaorao2770/webapp-cli/blob/master/images/css.png)
 ![image](https://github.com/yaorao2770/webapp-cli/blob/master/images/js.png)
