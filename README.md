@@ -1,4 +1,4 @@
-# webapp-cli
+# venustech-cli
 Auto generate project template
 
 ## Table of Contents
@@ -23,7 +23,7 @@ bower -v
 Install this tool by npm:
 
 ```bash
-npm install webapp-cli -g
+npm install venustech-cli -g
 ```
 
 ## Usage
@@ -31,7 +31,7 @@ Create your porject directory, and use "webapp-cli" command:
 
 ```bash
 mkdir my-project && cd my-project
-webapp-cli
+venus
 ```
 
 The following results indicate success
