@@ -1,5 +1,6 @@
 #! node
 
+console.log('\n');
 console.log('webapp-cli is success run!' + '\n');
 
 var fs = require('fs');
