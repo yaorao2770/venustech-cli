@@ -6,6 +6,7 @@ Auto generate project template
 * [Note](#Note)
 * [Installation](#installation)
 * [Usage](#usage)
+* [Argv](#Argv)
 * [Run](#Run)
 
 ## Note
@@ -37,6 +38,13 @@ The following results indicate success
 
 ![image](https://github.com/yaorao2770/webapp-cli/blob/master/images/build-success.png)
 
+## Argv
+可接受一个命令行参数, -lib ,用于添加更多的资源文件，如下图所示：
+```bash
+webapp-cli -lib
+```
+![image](https://github.com/yaorao2770/webapp-cli/blob/master/images/css.png)
+![image](https://github.com/yaorao2770/webapp-cli/blob/master/images/js.png)
 
 ## Run
 在项目骨架 build success 后，需运行以下命令去下载依赖的包和三方资源文件：
