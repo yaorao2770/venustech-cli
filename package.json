@@ -1,10 +1,10 @@
 {
-  "name": "venus/cli",
+  "name": "venus-CLI",
   "version": "1.0.0",
   "description": "auto generate project template",
   "main": "index.js",
   "bin": {
-    "venus/cli": "./index.js"
+    "venus": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,7 +16,7 @@
   "keywords": [
     "cli"
   ],
-  "author": "cy",
+  "author": "1013207893@qq.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/yaorao2770/webapp-cli/issues"
