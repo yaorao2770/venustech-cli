@@ -37,8 +37,6 @@ The following results indicate success
 
 ![image](https://github.com/yaorao2770/webapp-cli/blob/master/images/build-success.png)
 
-Default generates the following directory structure
-![image](https://github.com/yaorao2770/webapp-cli/blob/master/images/directory-structure.png)
 
 ## Run
 在项目骨架 build success 后，需运行以下命令去下载依赖的包和三方资源文件：
@@ -47,3 +45,5 @@ Default generates the following directory structure
 bower install
 npm install
 ```
+install成功后，应生成 node_modules 和 bower_components 两个目录。
+
