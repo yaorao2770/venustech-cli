@@ -34,10 +34,6 @@ mkdir my-project && cd my-project
 venus
 ```
 
-The following results indicate success
-
-![image](https://github.com/yaorao2770/webapp-cli/blob/master/images/build-success.png)
-
 ## Argv
 可接受一个命令行参数, -lib ,用于添加更多的资源文件，如下图所示：
 ```bash
