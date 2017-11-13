@@ -1,7 +1,7 @@
 #! node
 
 console.log('\n');
-console.log('webapp-cli is success run!' + '\n');
+console.log('venustech-cli is success run!' + '\n');
 
 var fs = require('fs');
 var path = require('path');
