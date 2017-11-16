@@ -66,8 +66,8 @@ var readStream  = fs.createReadStream(renamePath);
 var writeStream = fs.createWriteStream('./.gitignore');
 readStream.pipe(writeStream);
 readStream.on('end',function(){
-	fs.unlinkSync(renamePath);
 	copyTemplate('config/.gitignore',PATH + '/.gitignore');
+	fs.unlinkSync(renamePath);
 });
 
 // fs.rename(renamePath,'./.gitignore',function(err){
