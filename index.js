@@ -59,7 +59,9 @@ copyTemplate('config/bower.json',PATH + '/bower.json');
 
 console.log('__dirname',__dirname);
 
-fs.rename(__dirname + 'templates/config/.npmignore',PATH + '/.gitignore',function(err){
+var renamePath = path.join(__dirname, 'templates', 'config/.npmignore');
+
+fs.rename(renamePath,'./.gitignore',function(err){
 	if(err){
 		throw  err;
 	}
