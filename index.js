@@ -3,7 +3,7 @@
 console.log('\n');
 console.log('venustech-cli is success run!' + '\n');
 
-var fs = require('fs');
+var fs   = require('fs');
 var path = require('path');
 
 var config = {};
@@ -56,7 +56,18 @@ if(process.argv.length == 2){
 copyTemplate('config/gulpfile.js',PATH + '/gulpfile.js');
 copyTemplate('config/package.json',PATH + '/package.json');
 copyTemplate('config/bower.json',PATH + '/bower.json');
-copyTemplate('config/.gitignore',PATH + '/.gitignore');
+
+fs.rename('./templates/config/.npmignore',PATH + '/.gitignore',function(err){
+	if(err){
+		throw  err;
+	}
+
+	console.log('rename done');
+
+	copyTemplate('config/.gitignore',PATH + '/.gitignore');
+});
+
+
 
 
 mkdir(PATH + '/images');
