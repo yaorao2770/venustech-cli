@@ -57,11 +57,12 @@ copyTemplate('config/gulpfile.js',PATH + '/gulpfile.js');
 copyTemplate('config/package.json',PATH + '/package.json');
 copyTemplate('config/bower.json',PATH + '/bower.json');
 
-fs.rename('./templates/config/.npmignore',PATH + '/.gitignore',function(err){
+console.log('__dirname',__dirname);
+
+fs.rename(__dirname + 'templates/config/.npmignore',PATH + '/.gitignore',function(err){
 	if(err){
 		throw  err;
 	}
-
 	console.log('rename done');
 
 	copyTemplate('config/.gitignore',PATH + '/.gitignore');
