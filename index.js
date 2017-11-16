@@ -57,6 +57,7 @@ copyTemplate('config/gulpfile.js',PATH + '/gulpfile.js');
 copyTemplate('config/package.json',PATH + '/package.json');
 copyTemplate('config/bower.json',PATH + '/bower.json');
 copyTemplate('config/.npmignore',PATH + '/.npmignore');
+copyTemplate('config/.gitignore',PATH + '/.gitignore');
 
 
 mkdir(PATH + '/images');
