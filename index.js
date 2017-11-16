@@ -88,3 +88,5 @@ mkdir(PATH + '/source',function(){
 
 
 console.log('build success!' + '\n');
+console.log(" use \"bower install\" to generate bower_components dictory." + '\n');
+console.log(" use \"npm install\" to generate node_modules dictory." + '\n');
