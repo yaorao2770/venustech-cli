@@ -1,7 +1,7 @@
 #! node
 
 console.log('\n');
-console.log('venustech-cli is success run!' + '\n');
+console.log(' venustech-cli is success run!' + '\n');
 
 var fs   = require('fs');
 var path = require('path'); 
@@ -87,6 +87,6 @@ mkdir(PATH + '/source',function(){
 });
 
 
-console.log('build success!' + '\n');
+console.log(' build success!' + '\n');
 console.log(" use \"bower install\" to generate bower_components dictory." + '\n');
 console.log(" use \"npm install\" to generate node_modules dictory." + '\n');
