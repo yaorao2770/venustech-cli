@@ -56,6 +56,7 @@ if(process.argv.length == 2){
 copyTemplate('config/gulpfile.js',PATH + '/gulpfile.js');
 copyTemplate('config/package.json',PATH + '/package.json');
 copyTemplate('config/bower.json',PATH + '/bower.json');
+copyTemplate('config/.npmignore',PATH + '/.gitignore');
 
 mkdir(PATH + '/images');
 mkdir(PATH + '/templates',function(){
@@ -88,5 +89,5 @@ mkdir(PATH + '/source',function(){
 
 
 console.log(' build success!' + '\n');
-console.log(" use \"bower install\" to generate bower_components dictory." + '\n');
-console.log(" use \"npm install\" to generate node_modules dictory." + '\n');
+console.log(" use \"bower install\" to generate bower_components directory." + '\n');
+console.log(" use \"npm install\" to generate node_modules directory." + '\n');
