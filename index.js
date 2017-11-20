@@ -56,7 +56,7 @@ if(process.argv.length == 2){
 copyTemplate('config/gulpfile.js',PATH + '/gulpfile.js');
 copyTemplate('config/package.json',PATH + '/package.json');
 copyTemplate('config/bower.json',PATH + '/bower.json');
-copyTemplate('config/.npmignore',PATH + '/.gitignore');
+copyTemplate('config/.gitignore',PATH + '/.gitignore');
 
 mkdir(PATH + '/images');
 mkdir(PATH + '/templates',function(){
