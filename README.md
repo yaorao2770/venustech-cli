@@ -8,6 +8,7 @@ Auto generate project template
 * [Usage](#usage)
 * [Argv](#Argv)
 * [Run](#Run)
+* [Skeleton](#Skeleton)
 
 ## Note
 在使用该工具之前，确保本地环境已安装 Nodejs, Gulp, Bower。查看是否安装成功，可用以下命令：
@@ -52,3 +53,29 @@ npm install
 ```
 install成功后，应生成 node_modules 和 bower_components 两个目录。
 
+## Skeleton
+
+``` bash
+    \---bower_components
+    \---node_modules
+    \---images
+    \---source
+        |     \---controller   
+        |         | +---mainCtrl.js  
+        |     \---css
+        |         | +---al.css 
+        |         | +---common.css
+        |         | +---cy.css
+        |     \---directive
+        |         | +---directive.js  
+        |     \---service 
+        |         | +---app.js 
+        |         | +---myFilter.js
+        |         | +---router.js
+    \---templates   
+        +---main.html   <多端通用模块>
+    +---bower.json
+    +---gulpfile.js
+    +---index.html
+    +---package.json
+```
