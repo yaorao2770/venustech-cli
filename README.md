@@ -73,8 +73,9 @@ install成功后，应生成 node_modules 和 bower_components 两个目录。
         |         | +---myFilter.js
         |         | +---router.js
     \---templates   
-        +---main.html   <多端通用模块>
+        +---main.html   
     +---bower.json
+    +---.gitignore
     +---gulpfile.js
     +---index.html
     +---package.json
