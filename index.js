@@ -77,6 +77,7 @@ mkdir(PATH + '/source',function(){
 		copyTemplate('js/app.js',PATH + '/source/service/app.js');
 		copyTemplate('js/myFilter.js',PATH + '/source/service/myFilter.js');
 		copyTemplate('js/router.js',PATH + '/source/service/router.js');
+		copyTemplate('js/authcInteceptor.js',PATH + '/source/service/authcInteceptor.js');
 	});
 
 	mkdir(PATH + '/source/css',function(){

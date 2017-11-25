@@ -1,8 +1,10 @@
 (function(){
 	angular.module('myApp',['ui.router',
-							 'routeModule',
-							 'myFilter',
-							 'directiveModule',
-							 'mainCtrlModule'
+							'ngResource',
+							'routeModule',
+							'myFilter',
+							'authcInteceptorModule',
+							'directiveModule',
+							'mainCtrlModule'
 	]);	
 })();

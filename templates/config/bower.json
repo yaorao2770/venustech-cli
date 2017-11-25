@@ -43,6 +43,7 @@
     "neuecc-linq-2.2.0.2": "*",
     "echarts": "^3.8.0",
     "bootstrap": "^3.3.7",
-    "font-awesome": "^4.7.0"
+    "font-awesome": "^4.7.0",
+    "angular-resource": "1.5.8"
   }
 }
