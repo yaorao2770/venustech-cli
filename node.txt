@@ -1,0 +1,3 @@
+仅供开发者阅读：
+
+该工具的bower.json放在了 templates/ 目录下，放在此目录下而不是根目录下是因为，用gulp inject到html资源路径时，总是 ../bower_components/xxx/xxx.js 所以我们放在模板目录下，注入的时候路径才不会出错。
